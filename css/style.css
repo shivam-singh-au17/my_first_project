@@ -1,0 +1,126 @@
+
+/* CSS Reset */
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('/img/ab.jpg')no-repeat center center/cover;
+    color: white;
+
+}
+
+
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red;  */
+    position: absolute;
+    text-shadow: 2px 1px red;
+    left: 20px;
+    top: 3px;
+}
+
+.left img {
+    width: 60px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    text-align: center;
+    line-height: 18px;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 720px;
+    margin: 15px auto;
+    /* border: 2px solid blue; */
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    /* border: 2px solid green;  */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-shadow: 2px 1px red;
+    text-decoration: none;
+    padding: 9px 11px;
+}
+
+.left div:hover {
+    color: lawngreen;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(255, 255, 15);
+    text-shadow: 2px 1px rgb(9, 235, 46);
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 0px 15px;
+    border: 2px solid gold;
+    border-radius: 13px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hotpink;
+}
+
+.container {
+    border: 2px solid rgb(223, 231, 223);
+    margin: 50px 345px;
+    padding: 40px;
+    width: 38%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid violet;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    text-shadow: 2px 1px rgb(8, 5, 202);
+}
+
+.container button {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}
